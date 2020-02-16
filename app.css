@@ -1,0 +1,105 @@
+/* Your styles should be mobile-first and responsive */
+
+/** 
+  * If you are unclear on how to utilize a mobile-first, responsive technique to write your CSS, here is an example: 
+  *
+  * https://github.com/andreacardybailey/responsive_example/blob/master/styles/responsive-base.css 
+  *
+*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 40%;
+  margin: 50px auto;
+  border: 2px solid gray;
+  text-align: center;
+  border-radius: 5px;
+  padding: 30px;
+  height: 550px;
+  box-shadow: 5px 10px #888888;
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif, 'Open Sans', 'Montserrat';
+  box-sizing: border-box;
+}
+
+h1, .special {
+  color: blue;
+}
+
+.question {
+  font-style: italic;
+}
+
+.missed, .wrong {
+  color: red;
+  font-weight: bold;
+}
+
+.correct {
+  color: green;
+  font-weight: bold;
+}
+
+form {
+  margin: 10% 20%;
+  text-align: left;
+}
+button {
+  margin: 20px 30%;
+  padding: 15px;
+  border-radius: 5px;
+  color: brown;
+  font-weight: bold;
+  transition: all .2s ease-in-out; 
+}
+
+button:hover {
+  transform: scale(1.1); 
+  background-color: goldenrod;
+  border: 1px solid goldenrod;
+}
+.start-button {
+  background-color: rgb(167, 51, 51);
+  color: beige;
+  padding: 30px;
+  transition: all .2s ease-in-out; 
+}
+.start-button:hover {
+  transform: scale(1.1); 
+  background-color: green;
+  border: 1px solid green;
+}
+
+p.finished {
+  font-size: 25px;
+  color: green;
+}
+
+.score, .totalCorrect {
+  border: 1px solid green;
+  background-color: rgb(117, 207, 117);
+  padding: 2px 10px;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+.totalIncorrect {
+  border: 1px solid red;
+  background-color: lightcoral;
+  padding: 2px 10px;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+.qNum {
+  border: 1px solid gold;
+  background-color: gold;
+  padding: 0px 4px;
+  margin-right: 2px;
+  border-radius: 5px;
+}
+.incorrect {
+  color: red;
+}
